@@ -104,7 +104,7 @@
     font-family: 'Langar', cursive;
     position: absolute;
     left: 421px;
-    top: 1935px;
+    top: 1900px;
     padding: 11px;
     width: 430px;
     font-size: 30px;
@@ -113,7 +113,7 @@
 #DP3{
     position: absolute;
     left: 1111px;
-    top: 2001px;
+    top: 1930px;
     border: 11px solid antiquewhite;
     background-color: antiquewhite;
     border-radius: 25px;
@@ -125,7 +125,7 @@
     font-size: 41px;
     color: rgb(7, 2, 80);
     position: absolute;
-    top: 2041px;
+    top: 1970px;
     left: 1141px;
 }
 #lX{
@@ -135,7 +135,7 @@
     position: absolute;
     /* width: 71px;
     height: 71px; */
-    top: 2580px;
+    top: 2509px;
     left: 1121px;
 }
 #footer{
