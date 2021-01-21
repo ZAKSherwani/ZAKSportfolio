@@ -43,6 +43,62 @@
     right: 71px;
     width:71px;
 }
+#arrow {
+    width: 30px;
+    height: 111px;
+    background-color: antiquewhite;
+    position: fixed;
+    left:97%;
+    top:700px;
+    animation-name: arran;
+    animation-duration: 1s;
+    animation-iteration-count: 71111;
+  }
+#arrowhead {
+    width: 30px;
+    height: 30px;
+    border: solid antiquewhite;
+    border-width: 0 7px 7px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: antiquewhite;
+    position: fixed;
+    left:97%;
+    top:741px;
+    animation-name: arrahn;
+    animation-duration: 1s;
+    animation-iteration-count: 71111;
+  }
+#arrowtail {
+    width: 30px;
+    height: 30px;
+    border: solid rgb(7, 2, 80);
+    border-width: 0 7px 7px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    background-color: rgb(7, 2, 80);
+    position: fixed;
+    left:97%;
+    top:700px;
+    animation-name: arratn;
+    animation-duration: 1s;
+    animation-iteration-count: 71111;
+  }
+  @keyframes arran {
+        0%   {top:70%}
+        50%  {top:73%}
+        100% {top:70%}
+    }
+  @keyframes arrahn {
+        0%   {top:80%;}
+        50%  {top:83%;}
+        100% {top:80%;}
+    }
+  @keyframes arratn {
+        0%   {top:68%;}
+        50%  {top:71%;}
+        100% {top:68%;}
+    }
 #WA{
     width: 30px;
     transition: 0.5s;
@@ -73,7 +129,7 @@
 #DP1{
     position: absolute;
     left: 1111px;
-    top: z;
+    top: 210px;
     border: 11px solid antiquewhite;
     border-radius: 25px;
     width: 430px;
